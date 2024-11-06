@@ -1,9 +1,5 @@
 def main():
-    get_combination([
-        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 
-        'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 
-        'v', 'w', 'x', 'y', 'z'
-    ])
+    get_combination([ 1, 2, 3, 4])
 
 def get_combination(lst):
     count = 2 ** len(lst)
