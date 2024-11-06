@@ -42,7 +42,7 @@ if __name__ == "__main__":
 #TODO: need to improve -> aba, abaa, abca.. 
 
 """
-Oluşturulan 2'li kombinasyon sayısı: 300
-Oluşturulan 3'lü kombinasyon sayısı: 2.300
-Oluşturulan 4'lü kombinasyon sayısı: 12.650
+2'li kombinasyon sayısı: 300
+3'lü kombinasyon sayısı: 2.300
+4'lü kombinasyon sayısı: 12.650
 """
