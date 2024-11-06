@@ -13,9 +13,9 @@ def main():
     save_to_file("combinations_3.txt", combinations_3)
     save_to_file("combinations_4.txt", combinations_4)
     
-    print(f"Oluşturulan 2'li kombinasyon sayısı: {len(combinations_2)}")
-    print(f"Oluşturulan 3'lü kombinasyon sayısı: {len(combinations_3)}")
-    print(f"Oluşturulan 4'lü kombinasyon sayısı: {len(combinations_4)}")
+    print(f"2'li kombinasyon sayısı: {len(combinations_2)}")
+    print(f"3'lü kombinasyon sayısı: {len(combinations_3)}")
+    print(f"4'lü kombinasyon sayısı: {len(combinations_4)}")
 
 def get_combinations(lst, combination_length):
     combinations = []
@@ -39,7 +39,7 @@ def save_to_file(filename, combinations):
 if __name__ == "__main__":
     main()
 
-#TODO: abc, abd geliyor ama aba abb gelmiyor. düzenlenecek!
+#TODO: need to improve -> aba, abaa, abca.. 
 
 """
 Oluşturulan 2'li kombinasyon sayısı: 300
