@@ -26,3 +26,7 @@ def get_combination(lst):
 
 if __name__ == "__main__":
     main()
+
+"""
+Oluşturulan kombinasyon sayısı: 33.554.431
+"""
